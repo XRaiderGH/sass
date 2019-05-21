@@ -1,0 +1,203 @@
+.navbar {
+  padding-left: 300px;
+  padding-right: 300px;
+  height: 4.5em;
+  display: flex;
+  font-family: Quicksand sans-serif; }
+  .navbarLogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 3em;
+    width: 213px;
+    background-image: url("../images/iddink_logo_blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 90px;
+    flex-grow: 1; }
+  .navbarContent {
+    font-size: 0.9em;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #0073cf;
+    flex-grow: 0.02; }
+  .navbarSearch {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-grow: 0.1; }
+    .navbarSearchIcon {
+      width: 16px;
+      height: 16px;
+      background-image: url("../images/search-icon.png"); }
+
+.jumbotron {
+  padding-left: 470px;
+  height: 300px;
+  background-image: url("../images/slide-iddink1.jpg");
+  background-size: cover; }
+  .jumbotronContent {
+    padding-top: 10px;
+    width: 400px; }
+    .jumbotronContent p {
+      font-size: 1.28em;
+      color: white; }
+    .jumbotronContentCTA {
+      transform: translate(190px, 15px);
+      font-size: 1em;
+      height: 3em;
+      width: 150px;
+      background-color: #0073cf;
+      border-style: solid;
+      border-color: white;
+      border-radius: 5px;
+      color: white; }
+
+.watDoenWij {
+  height: 280px; }
+  .watDoenWijContent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center; }
+    .watDoenWijContent h1 {
+      color: #0073cf; }
+    .watDoenWijContent h4 {
+      font-size: 1em;
+      margin-top: 1em;
+      color: #0073cf; }
+    .watDoenWijContentCTA {
+      margin-top: 20px;
+      font-size: 1em;
+      height: 3em;
+      width: 350px;
+      background-color: #0073cf;
+      border-style: solid;
+      border-color: white;
+      border-radius: 5px;
+      color: white; }
+
+.card {
+  border-style: none;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+  padding-bottom: 20px; }
+  .card h4 {
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 1.25em;
+    color: #0073cf;
+    font-weight: bold; }
+  .card p {
+    margin-left: 0px;
+    text-align: left; }
+  .card a {
+    margin-left: 0px;
+    text-align: left; }
+
+.winActie {
+  width: 100vw;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  height: 400px;
+  background-color: #88c0e4; }
+  .winActieText {
+    width: 500px;
+    color: white;
+    transform: translateX(400px);
+    margin-top: 5em; }
+    .winActieText p {
+      width: 500px; }
+    .winActieTextCTA {
+      margin-top: 1.5em;
+      font-size: 1em;
+      height: 3em;
+      width: 300px;
+      background-color: #0073cf;
+      border-style: solid;
+      border-color: white;
+      border-radius: 5px;
+      color: white; }
+    .winActieTextIpad {
+      position: absolute;
+      transform: translateX(-706px) translateY(20px); }
+  .winActieImage {
+    margin-top: 3em; }
+
+.contact {
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  text-align: center; }
+  .contact h2 {
+    color: #0073cf; }
+  .contactCTA {
+    margin-top: 1.5em;
+    font-size: 1em;
+    height: 3em;
+    width: 125px;
+    background-color: #0073cf;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white; }
+
+.footer {
+  bottom: 0;
+  height: 200px;
+  background-color: #0076d5; }
+  .footerLogo {
+    transform: translateX(400px);
+    margin-top: 40px; }
+  .footer p {
+    margin-top: 3em;
+    transform: translateX(400px);
+    color: white; }
+  .footerNav {
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between; }
+    .footerNav a {
+      color: white; }
+
+.html, body {
+  font-family: Quicksand sans-serif;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden; }
+
+li {
+  margin-left: -20px;
+  color: black;
+  background: white;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  padding-bottom: 3px; }
+
+li:hover {
+  cursor: pointer; }
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  margin-top: 1rem;
+  left: 0;
+  display: none; }
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block; }
+
+ul li ul li {
+  clear: both;
+  width: 100%; }
+
+/*# sourceMappingURL=master.css.map */

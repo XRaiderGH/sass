@@ -1,0 +1,21 @@
+.footer {
+  bottom: 0;
+  height: 200px;
+  background-color: #0076d5; }
+  .footerLogo {
+    transform: translateX(400px);
+    margin-top: 40px; }
+  .footer p {
+    margin-top: 3em;
+    transform: translateX(400px);
+    color: white; }
+  .footerNav {
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between; }
+    .footerNav a {
+      color: white; }
+
+/*# sourceMappingURL=footer.css.map */

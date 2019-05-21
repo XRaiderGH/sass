@@ -1,0 +1,30 @@
+.winActie {
+  width: 100vw;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  height: 400px;
+  background-color: #88c0e4; }
+  .winActieText {
+    width: 500px;
+    color: white;
+    transform: translateX(400px);
+    margin-top: 5em; }
+    .winActieText p {
+      width: 500px; }
+    .winActieTextCTA {
+      margin-top: 1.5em;
+      font-size: 1em;
+      height: 3em;
+      width: 300px;
+      background-color: #0073cf;
+      border-style: solid;
+      border-color: white;
+      border-radius: 5px;
+      color: white; }
+    .winActieTextIpad {
+      position: absolute;
+      transform: translateX(-706px) translateY(20px); }
+  .winActieImage {
+    margin-top: 3em; }
+
+/*# sourceMappingURL=winactie.css.map */

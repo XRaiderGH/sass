@@ -1,0 +1,25 @@
+.jumbotron{
+  padding-left: 470px;
+  height: 300px;
+  background-image: url("../images/slide-iddink1.jpg");
+  background-size: cover;
+  &Content{
+    padding-top: 10px;
+    width: 400px;
+    p{
+      font-size: 1.28em;
+      color: white;
+    }
+    &CTA{
+      transform: translate(190px, 15px);
+      font-size: 1em;
+      height: 3em;
+      width: 150px;
+      background-color: rgb(0,115,207);
+      border-style: solid;
+      border-color: white;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+}

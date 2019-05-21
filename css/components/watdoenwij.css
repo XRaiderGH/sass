@@ -1,0 +1,25 @@
+.watDoenWij {
+  height: 280px; }
+  .watDoenWijContent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center; }
+    .watDoenWijContent h1 {
+      color: #0073cf; }
+    .watDoenWijContent h4 {
+      font-size: 1em;
+      margin-top: 1em;
+      color: #0073cf; }
+    .watDoenWijContentCTA {
+      margin-top: 20px;
+      font-size: 1em;
+      height: 3em;
+      width: 350px;
+      background-color: #0073cf;
+      border-style: solid;
+      border-color: white;
+      border-radius: 5px;
+      color: white; }
+
+/*# sourceMappingURL=watdoenwij.css.map */

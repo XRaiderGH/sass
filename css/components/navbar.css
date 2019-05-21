@@ -1,0 +1,32 @@
+.navbar {
+  padding-left: 300px;
+  padding-right: 300px;
+  height: 4.5em;
+  display: flex;
+  font-family: Quicksand; }
+  .navbarLogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 3em;
+    width: 213px;
+    background-image: url("../../images/iddink_logo_blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 90px;
+    flex-grow: 1; }
+  .navbarContent {
+    font-size: 0.9em;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #0073cf;
+    flex-grow: 0.02; }
+  .navbarSearch {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-grow: 0.1; }
+    .navbarSearchIcon {
+      width: 16px;
+      height: 16px;
+      background-image: url("../../images/search-icon.png"); }
+
+/*# sourceMappingURL=navbar.css.map */
